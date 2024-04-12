@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cossette Productions</title>
+
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+crossorigin="anonymous">
+
+
+<!-- Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/e08c0f9ca7.js" crossorigin="anonymous"></script>
+
+<!--Slick-->
+<link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Faster+One&family=Meow+Script&family=PT+Serif:wght@400;700&family=Passions+Conflict&family=Pompiere&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+<!-- header -->
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-12">
+                <div class="btn-group">
+                 <button class="btn border dropdown-toggle my-md-4 my-2"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                 >
+                  USD
+                 </button>
+                 <div class="dropdown-menu">
+                     <a href="#" class="dropdown-item">ERU Euro</a>
+                 </div>
+                </div>
+              </div>
+             <div class="col-md-4 col-12 text-center">
+                <img src="./assets/Cosette Banner.jpg" class="img-fluid" alt="Banner 2">
+             </div>
+             <div class="col-md-4 col-12 text-center">
+                <p class="my-md-4 header-links">
+                    <a href="#" class="px-2">Sign In</a>
+                    <a href="#" class="px-1">Register</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+  <div class="navigation">
+    <nav>
+      <a href="#">#Before I'm Famous</a>
+      <nav>
+      <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./features.html">FEATURES</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./ShopCosette.html">SHOP</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./SignatureCollections.html">COLLECTION</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./About.html">ABOUT US</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./AllFeaturedEvents.html">UPCOMING EVENTS</a>
+              </li>
+              <li>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  MEMBERSHIP PACKAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./Package1.html">VIP PACKAGES</a></li>
+                  <li><a class="dropdown-item" href="./Package2.html">ELITE PACKAGES</a></li>
+                  <li><a class="dropdown-item" href="./Package3.html">GUEST PACKAGES</a></li>
+                </ul>
+              </li>
+            </ul>
+            <nav>
+              <ul>
+                <li class="nav-item border rounded mx-2 search-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li class="nav-item border rounded mx-2 search-icon">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+              </ul>
+            </nav>           
+      </div>
+      </nav>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </div>
+</header>
+
+<!-- header -->
+
+<!-- Main Section -->
+
+<main>
+
+    <!-- First Slider -->
+    <div class="container-fluid p-0">
+        <div class="site-slider">
+            <div class="slider-one">
+                <div>
+                    <img src="./assets/1FD7CDDC-75A8-4B6C-ACFF-30327D85CAF4.JPEG" class="img-fluid" alt="Banner 1">
+                </div>
+                <div>
+                    <img src="./assets/3CFEB625-38D0-4ED4-92A7-F28E9218D458.JPEG" class="img-fluid" alt="Banner 2">
+                </div>
+                <div>
+                    <img src="./assets/21B0E149-10BA-4C99-880F-CD0829B3E0D4.JPEG" class="img-fluid" alt="Banner 3">
+                </div>
+                <div>
+                  <img src="./assets/26D0709D-CEC1-4309-8518-8C5FAEC1C2B5.JPEG" class="img-fluid" alt="Banner 4">
+              </div>
+            </div>
+             <div class="slider-btn">
+                <span class="prev position-top">
+                  <i class="fas fa-chevron-left"></i
+                ></span>
+                <span class="next position-top right-0">
+                  <i class="fas fa-chevron-right"></i
+                ></span>
+             </div>
+        </div>
+    </div>
+
+    <!-- Second Slider -->
+
+    <div class="container-fluid">
+      <div class="site-slider-two px-md-4">
+        <div class="row">
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Initials Logo.png" alt="Product 1">
+            <span class="border site-btn btn-span">Product 1</span>
+          </div>
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Logo (Initial Design).png" alt="Product 2">
+            <span class="border site-btn btn-span">Product 2</span>
+          </div>
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Logo.png" alt="Product 3">
+            <span class="border site-btn btn-span">Product 3</span>
+          </div>
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Initials Logo.png" alt="Product 4">
+            <span class="border site-btn btn-span">Product 4</span>
+          </div>
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Logo (Initial Design).png" alt="Product 5">
+            <span class="border site-btn btn-span">Product 5</span>
+          </div>
+          <div class="col-md-2 product pt-md-5-pt-4">
+            <img src="/assets/Cosette Logo.png" alt="Product 6">
+            <span class="border site-btn btn-span">Product 6</span>
+          </div>
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top">
+              <i class="fas fa-chevron-left fa-2x text-secondary"></i>
+             </span>
+          <span class="next position-top right-0">
+              <i class="fas fa-chevron-right fa-2x text-secondary"></i>
+             </span>
+      </div>
+      </div>
+    </div>
+
+</main>
+<!-----testimonial ----->
+
+
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+          <p>Cosette is a unique company focused on bringing opportunities 
+            and experiences to Mississippi that are not easily obtainable for Mississippi Artists.
+          </p>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="assets/Anonymous User.png" alt="">
+          <h3>Anonymous User</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+          <p>Cosette is a unique company focused on bringing opportunities 
+            and experiences to Mississippi that are not easily obtainable for Mississippi Artists.
+          </p>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="assets/Anonymous User.png" alt="">
+          <h3>Anonymous User</h3>
+      </div>
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Cosette helped me get many gigs as a performer. Very reliable source for any event. Highly recommended
+          for local shows and upcoming events.
+          </p>
+          <div class="rating">
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="assets/Anonymous User.png" alt="">
+          <h3>Anonymous User</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!------- brands -------->
+  <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="" alt=""> 
+        </div>
+        <div class="col-5">
+          <img src="" alt="">
+        </div>
+        <div class="col-5">
+          <img src="" alt="">
+        </div>
+        <div class="col-5">
+          <img src="" alt="">
+        </div>
+        <div class="col-5">
+          <img src="" alt="">
+        </div>
+        <div class="col-5">
+          <img src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!--Javascript for Toggle Menu-->
+      <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+ <!-------- footer -------->
+
+ <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and iOS devices.</p>
+        <div class="app-logo">
+          <i class="fa fa-android">Android</i>
+          <i class="fa fa-apple">iOS</i>
+          <img src="" alt="Google Play Store">
+          <img src="" alt="Apple Store">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="./assets/Cosette Banner.jpg" width="300px" alt="">
+        <p>A little Light Gives Opportunity to Shine Victoriously.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Discounts</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow US</h3>
+        <ul>
+          <li class="fa fa-facebook">Facebook</li>
+          <li class="fa fa-twitter">Twitter</li>
+          <li class="fa fa-instagram">Instagram</li>
+          <li class="fa fa-youtube">Youtube</i>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright"> Copyright 2022 - Website Builder</p>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="https:///code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/slick.js"></script>
+
+
+
+</body>
+</html>
+
